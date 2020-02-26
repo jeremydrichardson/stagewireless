@@ -94,12 +94,9 @@
             <p>Let us know if you have questions or would like to book us.</p>
             <p>Phone: (519) 691-0872</p>
         </div>
-        <form>
-            <label for="name">Name</label>
+        <form name="contact" method="POST" data-netlify="true">
             <input name="name" type="text" placeholder="Name" required>
-            <label for="email">Email</label>
             <input name="email" type="email" placeholder="Email" required>
-            <label for="message">Message</label>
             <textarea name="message" rows="4" placeholder="Type your message"></textarea>
             <input type="submit" value="Send a message" style="width: 40%; background-color: white; border: 1px solid #555; border-radius: 6px;">
         </form>
