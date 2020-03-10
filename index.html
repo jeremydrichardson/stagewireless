@@ -13,12 +13,17 @@
         body {
             background-color: black;
             font-family: Roboto, Arial, Helvetica, sans-serif;
+            color: #ffffff;
         }
         header {
-            background: #1e73be;
-            /*background: linear-gradient(180deg, rgba(53,140,179,1) 0%, rgba(20,123,178,1) 46%, rgba(6,115,176,1) 49%, rgba(2,113,175,1) 100%), url(img/waveform.png) bottom center repeat-x;*/
+            /*background: #1e73be ;
+            background: rgb(22,85,140, 0.8) url(img/IMG_0176-2048x806.jpeg);*/
+            background: linear-gradient(90deg, rgba(31,82,128,0.8) 0%, rgba(22,85,140,0.8) 100%), url(img/IMG_0176-2048x806-resized.jpeg);
+            background-size: cover;
             height: 300px;
-            padding-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .header-inner {
             display: flex;
@@ -30,6 +35,9 @@
             background-position-y: -300px;
             mix-blend-mode:hard-light;
         }
+        h1,h2,h3,h4,h5,h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
         h1 {
             text-align: center;
             color: white;
@@ -39,7 +47,7 @@
         }
         h2 {
             text-align: center;
-            color: white;
+            color: #DDD;
             margin: 0;
         }
         .feature-image {
@@ -77,16 +85,50 @@
         }
     </style>
     <header>
-        <div class="header-inner">
-            <h1>Stage Wireless</h1>
-            <h2>We do wireless microphones</h2>
-        </div>
+        <img src="img/stage-wireless-logo.svg" height="100">
+        <h2>We do wireless microphones</h2>
     </header>
-    <section class="container">
-        <img src="img/IMG_0176-2048x806.jpeg" class="feature-image">
+    <section style="display: flex; justify-content: space-evenly; height: 100px;">
+        <img src="img/sennheiser-logo.svg" width="200">
+        <img src="img/countryman-logo-vector2.svg" width="200">
+        <img src="img/meyer-sound.svg" width="100">
     </section>
     <section>
-        Providing professional wireless microphone systems for Live Theatre, Houses of Worship, Broadcasters, Film or Live Concert performances.
+        <h2>About Us</h2>
+        <p>Providing professional wireless microphone systems for Live Theatre, Houses of Worship, Broadcasters, Film or Live Concert performances.</p>
+    </section>
+    <section>
+        <h2>Services</h2>
+        <div>
+            <h3>Manufacturers</h3>
+            <p>Professional wireless microphone systems featuring:</p>
+            <ul>
+                <li>Sennheiser</li>
+                <li>Countryman</li>
+                <li>Meyer</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Gear</h3>
+            <ul>
+                <li><img src="img">Belt packs</li>
+                <li>Receivers</li>
+                <li>Handheld microphones</li>
+                <li>Headsets</li>
+                <li>Hair mics</li>
+                <li>In-ear monitors</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Frequency Management</h2>
+        <p>We will help you to manage wireless frequencies in the ever crowded wireless space. Our expertise will give you the best frequencies based on your location.</p>
+        <p>Factors that impact frequency management:</p>
+        <ul>
+            <li>Local TV stations</li>
+            <li>Partitioned space for new technologies</li>
+            <li>Intermodulations based on the number of mics used</li>
+        </ul>
     </section>
     <section class="container" style="background-color: #1e73be; display: flex;">
         <div class="form-description">
